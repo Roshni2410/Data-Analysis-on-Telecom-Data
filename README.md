@@ -1,4 +1,4 @@
-# GCP-Hive-Telecom-Chu0rn-Analysis
+# GCP-Hive-Telecom-Churn-Analysis
 
 **Overview**
 This repository contains code and documentation for performing Telecom Churn Analysis using Google Cloud Platform (GCP), Apache Hive, and related technologies. The project focuses on data engineering tasks, data analysis with Apache Hive, partitioning, bucketing, and performance optimization with joins.
