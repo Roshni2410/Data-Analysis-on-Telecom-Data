@@ -1,7 +1,8 @@
-# GCP-Hive-Telecom-Churn-Analysis
+# Data Analysis with Apache Hive on Telecom Data
 
 **Overview**
-This repository contains code and documentation for performing Telecom Churn Analysis using Google Cloud Platform (GCP), Apache Hive, and related technologies. The project focuses on data engineering tasks, data analysis with Apache Hive, partitioning, bucketing, and performance optimization with joins.
+This repository contains code and documentation for performing Data Analysis on Telecom Data
+ with Apache Hive, and related technologies. The project focuses on data engineering tasks, data analysis with Apache Hive, partitioning, bucketing, and performance optimization with joins.
 
 **Table of Contents**
 Getting Started
@@ -17,7 +18,7 @@ Ensure you have the following prerequisites before starting:
 
 Google Cloud Platform (GCP) account
 Apache Hive installed and configured
-Telecom Churn dataset downloaded
+Telecom_customer_churn_data downloaded
 Setting up HDFS
 # Create input_data directory
 hdfs dfs -mkdir input_data
@@ -34,7 +35,7 @@ hdfs dfs -mkdir /input_data/Demographics
 # Load CustomerDemographics.csv into Demographics directory
 hdfs dfs -put CustomerDemographics.csv /input_data/Demographics/
 HiveQL Scripts
-This section includes HiveQL scripts for various tasks related to Telecom Churn Analysis. Follow these scripts to perform data loading, exploration, analysis, partitioning, bucketing, and advanced analysis.
+This section includes HiveQL scripts for various tasks related to Telecom_customer_churn_data. Follow these scripts to perform data loading, exploration, analysis, partitioning, bucketing, and advanced analysis.
 1. Data Loading (Beginner)
 a. Download the dataset and load it into a Hive table.
 b. Write a query to display the top 10 rows of the table.
